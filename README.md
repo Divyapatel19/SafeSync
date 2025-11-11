@@ -37,16 +37,19 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
  <table>
    <tr>
      <td align="center">
-       <img src="![login.jpg](screenshot/login.jpg)" width="300" alt="Login Screen"><br />
+       <img src="![login](https://github.com/user-attachments/assets/b7d84a57-3db5-4d07-bbdd-89e327a6d5be)
+" width="300" alt="Login Screen"><br />
        <sub><b>Login Screen</b></sub>
      </td>
 </td>
      <td align="center">
-       <img src="![register.jpg](screenshot/register.jpg)" width="300" alt="Register Screen"><br />
+       <img src="![register](https://github.com/user-attachments/assets/90f1bc48-bf5d-4784-a809-71c259dd9127)
+" width="300" alt="Register Screen"><br />
        <sub><b>Registration Screen</b></sub>
      </td>
      <td align="center">
-       <img src="![home.jpg](screenshot/home.jpg)" width="300" alt="Home Screen"><br />
+       <img src="![home](https://github.com/user-attachments/assets/7b820c6a-d6d9-45b2-967c-378ac68c43fe)
+" width="300" alt="Home Screen"><br />
        <sub><b>Home Screen</b></sub>
      </td>
    </tr>
