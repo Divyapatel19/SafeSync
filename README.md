@@ -37,55 +37,55 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
  <table>
    <tr>
      <td align="center">
-       <img src="./screenshots/login.jpg" width="300" alt="Login Screen"><br />
+       <img src="![login.jpg](screenshot/login.jpg)" width="300" alt="Login Screen"><br />
        <sub><b>Login Screen</b></sub>
      </td>
 </td>
      <td align="center">
-       <img src="./screenshots/register.jpg" width="300" alt="Register Screen"><br />
+       <img src="![register.jpg](screenshot/register.jpg)" width="300" alt="Register Screen"><br />
        <sub><b>Registration Screen</b></sub>
      </td>
      <td align="center">
-       <img src="./screenshots/home.jpg" width="300" alt="Home Screen"><br />
+       <img src="![home.jpg](screenshot/home.jpg)" width="300" alt="Home Screen"><br />
        <sub><b>Home Screen</b></sub>
      </td>
    </tr>
    <tr>
 r>
      <td align="center">
-       <img src="./screenshots/alonemode.jpg" width="300" alt="Alone Mode"><br />
+       <img src="![alonemode.jpg](screenshot/alonemode.jpg)" width="300" alt="Alone Mode"><br />
        <sub><b>Alone Mode</b></sub>
      </td>
      <td align="center">
-       <img src="./screenshots/feture.jpg" width="300" alt="Features Screen"><br />
+       <img src="![feture.jpg](screenshot/feture.jpg)" width="300" alt="Features Screen"><br />
        <sub><b>Features Screen</b></sub>
      </td>
      <td align="center">
-<img src="./screenshots/emerangency .jpg" width="300" alt="Emergency SOS"><br />
+<img src="![emerangency .jpg](screenshot/emerangency%20.jpg)" width="300" alt="Emergency SOS"><br />
        <sub><b>Emergency SOS</b></sub>
      </td>
    </tr>
    <tr>
      <td align="center">
-       <img src="./screenshots/profile.jpg" width="300" alt="Profile Screen"><br />
+       <img src="![profile.jpg](screenshot/profile.jpg)" width="300" alt="Profile Screen"><br />
        <sub><b>Profile & Safety Checklist</b></sub>
      </td>
      <td align="center">
-       <img src="./screenshots/edit profile.jpg" width="300" alt="Edit Profile Screen"><br />
+       <img src="![edit profile.jpg](screenshot/edit%20profile.jpg)" width="300" alt="Edit Profile Screen"><br />
        <sub><b>Edit Profile Screen</b></sub>
      </td>
  <td align="center">
-       <img src="./screenshots/medical information.jpg" width="300" alt="Medical Information"><br />
+       <img src="![medical information.jpg](screenshot/medical%20information.jpg)" width="300" alt="Medical Information"><br />
        <sub><b>Medical Information</b></sub>
      </td>
    </tr>
    <tr>
      <td align="center">
-       <img src="./screenshots/privacy and safty.jpg" width="300" alt="Privacy & Security"><br />
+       <img src="![privacy and safty.jpg](screenshot/privacy%20and%20safty.jpg)" width="300" alt="Privacy & Security"><br />
        <sub><b>Privacy & Security</b></sub>
      </td>
      <td align="center">
-<img src="./screenshots/help and support.jpg" width="300" alt="Help and Support"><br />
+<img src="![help and support.jpg](screenshot/help%20and%20support.jpg)" width="300" alt="Help and Support"><br />
        <sub><b>Help & Support</b></sub>
      </td>
      <td align="center"></td>
