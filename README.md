@@ -18,41 +18,94 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 
 *   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
 
+## Key Features
+
+*   **Material Design 3 & Jetpack Compose:** The entire UI is built using Jetpack Compose and follows the Material Design 3 guidelines, providing a modern, clean, and intuitive user experience that is consistent with the latest Android platform conventions.
+*   **Real-time Location Sharing:** Share your live location with pre-selected emergency contacts. Location is updated in real-time, allowing your loved ones to know you're safe.
+*   **Emergency SOS:** A powerful SOS feature that can be triggered by pressing the power button 3 times. It sends an emergency alert with your current location to all your safety contacts.
+*   **Alone Mode:** An extra layer of security for when you're feeling unsafe. If you activate this mode and don't respond to safety check notifications, your location will be automatically shared with your contacts.
+*   **Comprehensive Profile:** Maintain a detailed profile including your medical information (blood type, allergies, medications) which can be crucial for first responders in an emergency.
+*   **Safety Setup Checklist:** An easy-to-follow checklist that guides you through setting up your emergency contacts, granting necessary permissions, and completing your medical info to ensure you are fully prepared.
+*   **Crisis Alerts:** Get notified about public emergencies and crises happening in your area to stay informed and safe.
+*   **Secure Authentication:** User accounts are secured with Firebase Authentication, supporting both email/password and Google Sign-In for easy and secure access.
+*   **Privacy Focused:** A clear and transparent privacy policy outlining what data is collected and how itis used to provide the service, with a commitment to not selling your data.
+*   **Firebase Integration:** Leverages the power of the Firebase suite. Firebase Authentication for user management, and Firebase Realtime Database to store user data, contacts, and location information in a synchronized, real-time manner.
+
+## Screenshots
+
+*   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
+ <table>
+   <tr>
+     <td align="center">
+       <img src="./screenshots/login.jpg" width="300" alt="Login Screen"><br />
+       <sub><b>Login Screen</b></sub>
+     </td>
+</td>
+     <td align="center">
+       <img src="./screenshots/register.jpg" width="300" alt="Register Screen"><br />
+       <sub><b>Registration Screen</b></sub>
+     </td>
+     <td align="center">
+       <img src="./screenshots/home.jpg" width="300" alt="Home Screen"><br />
+       <sub><b>Home Screen</b></sub>
+     </td>
+   </tr>
+   <tr>
+r>
+     <td align="center">
+       <img src="./screenshots/alonemode.jpg" width="300" alt="Alone Mode"><br />
+       <sub><b>Alone Mode</b></sub>
+     </td>
+     <td align="center">
+       <img src="./screenshots/feture.jpg" width="300" alt="Features Screen"><br />
+       <sub><b>Features Screen</b></sub>
+     </td>
+     <td align="center">
+<img src="./screenshots/emerangency .jpg" width="300" alt="Emergency SOS"><br />
+       <sub><b>Emergency SOS</b></sub>
+     </td>
+   </tr>
+   <tr>
+     <td align="center">
+       <img src="./screenshots/profile.jpg" width="300" alt="Profile Screen"><br />
+       <sub><b>Profile & Safety Checklist</b></sub>
+     </td>
+     <td align="center">
+       <img src="./screenshots/edit profile.jpg" width="300" alt="Edit Profile Screen"><br />
+       <sub><b>Edit Profile Screen</b></sub>
+     </td>
+ <td align="center">
+       <img src="./screenshots/medical information.jpg" width="300" alt="Medical Information"><br />
+       <sub><b>Medical Information</b></sub>
+     </td>
+   </tr>
+   <tr>
+     <td align="center">
+       <img src="./screenshots/privacy and safty.jpg" width="300" alt="Privacy & Security"><br />
+       <sub><b>Privacy & Security</b></sub>
+     </td>
+     <td align="center">
+<img src="./screenshots/help and support.jpg" width="300" alt="Help and Support"><br />
+       <sub><b>Help & Support</b></sub>
+     </td>
+     <td align="center"></td>
+   </tr>
+ </table>
+
 ## How It Works
+
 
 SafeSync is built around a client-server architecture using Firebase as the backend.
 
 *   **Frontend:** The Android app is built with modern Android development techniques. The UI is purely declarative, written in Jetpack Compose. The architecture follows the recommended guide, using ViewModels to separate logic from UI and to manage the UI state.
 
 *   **Backend:** Firebase Authentication handles user sign-up and sign-in securely. Firebase Realtime Database is used to store all application data, such as user profiles, contact lists, and shared location data, which are synchronized in real-time across devices.
+    SafeSync is built with a modern Android architecture using Firebase for its backend services.
 
 *   **Location Services:** The app uses the Fused Location Provider API from Google Play Services to get the device's location efficiently and accurately, with minimal impact on battery life.
+*   **Frontend:** The UI is built entirely with **Jetpack Compose**, providing a reactive and modern user interface. The app follows Google's recommended architecture, using **ViewModels** to manage UI state and interact with the backend.
+*   **Backend:** **Firebase** is used for all backend needs. **Firebase Authentication** handles secure user login, while **Firebase Realtime Database** stores user data, contacts, and location information, ensuring all data is synchronized in real-time.
+*   **Location Services:** The app utilizes the **Fused Location Provider API** from Google Play Services for efficient and accurate location tracking with minimal battery impact.
 
-## Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/SafeSync2.git
-    ```
-2.  **Open in Android Studio:** Open the cloned project in the latest stable version of Android Studio.
-3.  **Firebase Setup:**
-    *   Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
-    *   Add an Android app to your Firebase project with the package name `com.example.safesync`.
-    *   Follow the setup instructions to download the `google-services.json` file and place it in the `app/` directory of the project.
-    *   In the Firebase Console, enable the **Authentication** service (with Email/Password and Google providers) and the **Realtime Database**.
-4.  **Google Maps API Key:**
-    *   Go to the [Google Cloud Console](https://console.cloud.google.com/) and obtain a Google Maps API key.
-    *   Create a file named `local.properties` in the root directory of the project if it doesn't already exist.
-    *   Add your API key to the `local.properties` file:
-        ```
-        MAPS_API_KEY=YOUR_API_KEY
-        ```
-5.  **Build and Run:** Sync the project with Gradle files and then build and run the app on an Android device or emulator.
 
-## Core Dependencies
-
-*   **[Jetpack Compose](https://developer.android.com/jetpack/compose):** The modern toolkit for building native Android UI.
-*   **[Firebase](https://firebase.google.com/):** Provides backend services, including Authentication and a Realtime Database.
-*   **[Google Play Services](https://developers.google.com/android/guides/overview):** Used for location services and Google Sign-In.
-*   **[Coil](https://coil-kt.github.io/coil/):** An image loading library for Android backed by Kotlin Coroutines.
-*   **[Accompanist](https://google.github.io/accompanist/):** A group of libraries that supplement Jetpack Compose with features that are not yet available in the official toolkit, such as permissions handling.
