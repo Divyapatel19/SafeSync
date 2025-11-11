@@ -36,7 +36,16 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 *   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
     |Login Screen  | Register Screen|
     |----------|----------|
-    | <![login.jpg](screenshot/login.jpg)height="330"/>| <![login.jpg](screenshot/login.jpg)width="200" height="330"/><br>**Time Picker Dialog**<br>*(As previously described/visualized)* | <img src="https://github.com/user-attachments/assets/279b07a2-3018-4023-96f2-ccad39dd21be" width="200" height="330"/><br>**Main Screen - Alarm Set**<br>*(As previously described/visualized)* |
+    | [login.jpg](screenshot/login.jpg)| [login.jpg](screenshot/login.jpg)|
+    |Home Screen | Alone Mode|
+    |----------|----------|
+    |![home.jpg](screenshot/home.jpg)| ![alonemode.jpg](screenshot/alonemode.jpg)|
+    |Feture Screen| EmergencSOS Screen|
+    |----------|----------|
+    | ![feture.jpg](screenshot/feture.jpg)| ![emerangency .jpg](screenshot/emerangency%20.jpg)|
+    |Profile Screen|Contact Screen|Edit profile Screen|medical info Screen|privacy&Safty Screen|Help & Support Scrren|
+    |----------|----------|----------|----------|----------|----------|
+    | ![profile.jpg](screenshot/profile.jpg)|![manage contact .jpg](screenshot/manage%20contact%20.jpg)|![edit profile.jpg](screenshot/edit%20profile.jpg)|![medical information.jpg](screenshot/medical%20information.jpg)|![privacy and safty.jpg](screenshot/privacy%20and%20safty.jpg)|![help and support.jpg](screenshot/help%20and%20support.jpg)|
 
 
 ## How It Works
