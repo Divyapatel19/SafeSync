@@ -19,20 +19,6 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 
 *   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
 
-## Key Features
-
-*   **Material Design 3 & Jetpack Compose:** The entire UI is built using Jetpack Compose and follows the Material Design 3 guidelines, providing a modern, clean, and intuitive user experience that is consistent with the latest Android platform conventions.
-*   **Real-time Location Sharing:** Share your live location with pre-selected emergency contacts. Location is updated in real-time, allowing your loved ones to know you're safe.
-*   **Emergency SOS:** A powerful SOS feature that can be triggered by pressing the power button 3 times. It sends an emergency alert with your current location to all your safety contacts.
-*   **Alone Mode:** An extra layer of security for when you're feeling unsafe. If you activate this mode and don't respond to safety check notifications, your location will be automatically shared with your contacts.
-*   **Comprehensive Profile:** Maintain a detailed profile including your medical information (blood type, allergies, medications) which can be crucial for first responders in an emergency.
-*   **Safety Setup Checklist:** An easy-to-follow checklist that guides you through setting up your emergency contacts, granting necessary permissions, and completing your medical info to ensure you are fully prepared.
-*   **Crisis Alerts:** Get notified about public emergencies and crises happening in your area to stay informed and safe.
-*   **Secure Authentication:** User accounts are secured with Firebase Authentication, supporting both email/password and Google Sign-In for easy and secure access.
-*   **Privacy Focused:** A clear and transparent privacy policy outlining what data is collected and how itis used to provide the service, with a commitment to not selling your data.
-*   **Firebase Integration:** Leverages the power of the Firebase suite. Firebase Authentication for user management, and Firebase Realtime Database to store user data, contacts, and location information in a synchronized, real-time manner.
-*   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
-
 ## Screenshots
 | Login Screen | Register Screen                                                       |
 |---------------|-----------------------------------------------------------------------|
