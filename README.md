@@ -34,18 +34,18 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 *   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
 
 ## Screenshots
-| Login Screen | Register Screen                                                          |
-|---------------|--------------------------------------------------------------------------|
-| <img src="screenshot/login.jpg" width="250" height="400"> | <img src="screenshot/register.jpg" width="250" height="400">             |
-| Home Screen | Alone Mode                                                               |
-| <img src="screenshot/home.jpg" width="250" height="400"> | <img src="screenshot/alonemode.jpg" width="250" height="400">            |
-| Feature Screen | Emergency SOS Screen                                                     |
-| <img src="screenshot/feture.jpg" width="250" height="400"> | <img src="screenshot/emergencysos%20.jpg" width="250" height="400">      |
-| Profile Screen | Contact Screen                                                           |
-| <img src="screenshot/profile.jpg" width="250" height="400"> | <img src="screenshot/manage%20contact%20.jpg" width="250" height="400">  |
-| Edit Profile Screen | Medical Info Screen                                                      |
-| <img src="screenshot/edit%20profile.jpg" width="250" height="400"> | <img src="screenshot/medical%20infor.jpg" width="250" height="400">      |
-| Privacy & Safety Screen | Help & Support Screen                                                    |
+| Login Screen | Register Screen                                                       |
+|---------------|-----------------------------------------------------------------------|
+| <img src="screenshot/login.jpg" width="250" height="400"> | <img src="screenshot/register.jpg" width="250" height="400">          |
+| Home Screen | Alone Mode                                                            |
+| <img src="screenshot/home.jpg" width="250" height="400"> | <img src="screenshot/alonemode.jpg" width="250" height="400">         |
+| Feature Screen | Emergency SOS Screen                                                  |
+| <img src="screenshot/feture.jpg" width="250" height="400"> | <img src="screenshot/emergencysos.jpg" width="250" height="400">      |
+| Profile Screen | Contact Screen                                                        |
+| <img src="screenshot/profile.jpg" width="250" height="400"> | <img src="screenshot/manage%20contact%20.jpg" width="250" height="400"> |
+| Edit Profile Screen | Medical Info Screen                                                   |
+| <img src="screenshot/edit%20profile.jpg" width="250" height="400"> | <img src="screenshot/medical%20infor.jpg" width="250" height="400">   |
+| Privacy & Safety Screen | Help & Support Screen                                                 |
 | <img src="screenshot/privacy%20and%20saty.jpg" width="250" height="400"> | <img src="screenshot/help%20and%20support.jpg" width="250" height="400"> |
 
 
