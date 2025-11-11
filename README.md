@@ -35,14 +35,8 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 | <img src="screenshot/privacy%20and%20saty.jpg" width="250" height="400"> | <img src="screenshot/help%20and%20support.jpg" width="250" height="400"> |
 
 
+## How It Works
 SafeSync is built around a client-server architecture using Firebase as the backend.
-
-*   **Frontend:** The Android app is built with modern Android development techniques. The UI is purely declarative, written in Jetpack Compose. The architecture follows the recommended guide, using ViewModels to separate logic from UI and to manage the UI state.
-
-*   **Backend:** Firebase Authentication handles user sign-up and sign-in securely. Firebase Realtime Database is used to store all application data, such as user profiles, contact lists, and shared location data, which are synchronized in real-time across devices.
-    SafeSync is built with a modern Android architecture using Firebase for its backend services.
-
-*   **Location Services:** The app uses the Fused Location Provider API from Google Play Services to get the device's location efficiently and accurately, with minimal impact on battery life.
 *   **Frontend:** The UI is built entirely with **Jetpack Compose**, providing a reactive and modern user interface. The app follows Google's recommended architecture, using **ViewModels** to manage UI state and interact with the backend.
 *   **Backend:** **Firebase** is used for all backend needs. **Firebase Authentication** handles secure user login, while **Firebase Realtime Database** stores user data, contacts, and location information, ensuring all data is synchronized in real-time.
 *   **Location Services:** The app utilizes the **Fused Location Provider API** from Google Play Services for efficient and accurate location tracking with minimal battery impact.
