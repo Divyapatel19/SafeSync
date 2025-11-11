@@ -34,7 +34,6 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 *   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
 
 ## Screenshots
-
 | Login Screen | Register Screen |
 |---------------|----------------|
 | <img src="screenshot/login.jpg" width="250" height="400"> | <img src="screenshot/register.jpg" width="250" height="400"> |
@@ -49,7 +48,6 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 | Privacy & Safety Screen | Help & Support Screen |
 | <img src="screenshot/privacy%20and%20safty.jpg" width="250" height="400"> | <img src="screenshot/help%20and%20support.jpg" width="250" height="400"> |
 
-## How It Works
 
 
 SafeSync is built around a client-server architecture using Firebase as the backend.
