@@ -34,20 +34,19 @@ SafeSync is a personal safety Android application built with Kotlin and Jetpack 
 *   **Google Play Services:** Integrates with Google Play Services for robust and battery-efficient location tracking and authentication.
 
 ## Screenshots
-| Login Screen                                                              | Register Screen                                                           |
-|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| <img src="screenshot/login.jpg" width="250" height="400">                 | <img src="screenshot/register.jpg" width="250" height="400">              |
-| Home Screen                                                               | Alone Mode                                                                |
-| <img src="screenshot/home.jpg" width="250" height="400">                  | <img src="screenshot/alonemode.jpg" width="200" height="400">             |
-| Feature Screen                                                            | Emergency SOS Screen                                                      |
-| <img src="screenshot/feture.jpg" width="250" height="400">                | <img src="screenshot/emerangency%20.jpg" width="200" height="400">        |
-| Profile Screen                                                            | Contact Screen                                                            |
-| <img src="screenshot/profile.jpg" width="250" height="400">               | <img src="screenshot/manage%20contact%20.jpg" width="250" height="400">   |
-| Edit Profile Screen                                                       | Medical Info Screen                                                       |
-| <img src="screenshot/edit%20profile.jpg" width="250" height="400">        | <img src="screenshot/medical%20information.jpg" width="250" height="400"> |
-| Privacy & Safety Screen                                                   | Help & Support Screen                                                     |
-| <img src="screenshot/privacy%20and%20safty.jpg" width="250" height="400"> | <img src="screenshot/help%20and%20support.jpg" width="250" height="400">  |
-
+| Login Screen | Register Screen |
+|---------------|----------------|
+| <img src="screenshot/login.jpg" width="300" height="400"> | <img src="screenshot/register.jpg" width="300" height="400"> |
+| Home Screen | Alone Mode |
+| <img src="screenshot/home.jpg" width="300" height="400"> | <img src="screenshot/alonemode.jpg" width="300" height="400"> |
+| Feature Screen | Emergency SOS Screen |
+| <img src="screenshot/feture.jpg" width="300" height="400"> | <img src="screenshot/emerangency%20.jpg" width="300" height="400"> |
+| Profile Screen | Contact Screen |
+| <img src="screenshot/profile.jpg" width="300" height="400"> | <img src="screenshot/manage%20contact%20.jpg" width="300" height="400"> |
+| Edit Profile Screen | Medical Info Screen |
+| <img src="screenshot/edit%20profile.jpg" width="300" height="400"> | <img src="screenshot/medical%20information.jpg" width="300" height="400"> |
+| Privacy & Safety Screen | Help & Support Screen |
+| <img src="screenshot/privacy%20and%20safty.jpg" width="300" height="400"> | <img src="screenshot/help%20and%20support.jpg" width="300" height="400"> |
 
 SafeSync is built around a client-server architecture using Firebase as the backend.
 
