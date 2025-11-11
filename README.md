@@ -28,3 +28,31 @@ SafeSync is built around a client-server architecture using Firebase as the back
 
 *   **Location Services:** The app uses the Fused Location Provider API from Google Play Services to get the device's location efficiently and accurately, with minimal impact on battery life.
 
+## Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/SafeSync2.git
+    ```
+2.  **Open in Android Studio:** Open the cloned project in the latest stable version of Android Studio.
+3.  **Firebase Setup:**
+    *   Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+    *   Add an Android app to your Firebase project with the package name `com.example.safesync`.
+    *   Follow the setup instructions to download the `google-services.json` file and place it in the `app/` directory of the project.
+    *   In the Firebase Console, enable the **Authentication** service (with Email/Password and Google providers) and the **Realtime Database**.
+4.  **Google Maps API Key:**
+    *   Go to the [Google Cloud Console](https://console.cloud.google.com/) and obtain a Google Maps API key.
+    *   Create a file named `local.properties` in the root directory of the project if it doesn't already exist.
+    *   Add your API key to the `local.properties` file:
+        ```
+        MAPS_API_KEY=YOUR_API_KEY
+        ```
+5.  **Build and Run:** Sync the project with Gradle files and then build and run the app on an Android device or emulator.
+
+## Core Dependencies
+
+*   **[Jetpack Compose](https://developer.android.com/jetpack/compose):** The modern toolkit for building native Android UI.
+*   **[Firebase](https://firebase.google.com/):** Provides backend services, including Authentication and a Realtime Database.
+*   **[Google Play Services](https://developers.google.com/android/guides/overview):** Used for location services and Google Sign-In.
+*   **[Coil](https://coil-kt.github.io/coil/):** An image loading library for Android backed by Kotlin Coroutines.
+*   **[Accompanist](https://google.github.io/accompanist/):** A group of libraries that supplement Jetpack Compose with features that are not yet available in the official toolkit, such as permissions handling.
